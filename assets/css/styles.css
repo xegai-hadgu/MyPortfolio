@@ -1641,10 +1641,19 @@ body {
 .mh-home {
   background-color: #edf7fa;
 }
+.mh-about {
+  background-color: #edf7fa;
+}
 .mh-service {
   background-color: #edf7fa;
 }
+.mh-skills {
+  background-color: #edf7fa;
+}
 .mh-experince {
+  background-color: #edf7fa;
+}
+.mh-portfolio {
   background-color: #edf7fa;
 }
 .mh-footer {
