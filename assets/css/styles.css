@@ -1181,6 +1181,9 @@ body {
 .mh-education h3 {
   text-align: center;
 }
+.mh-education .education-title{
+  margin-top:  50px;
+}
 
 .certificate-title {
   text-align: center;
