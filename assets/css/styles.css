@@ -931,6 +931,24 @@ body {
          SKILLS
       ==============
   */
+
+.mh-skills .mh-professional-skill .vertical {
+  border-right: 6px solid gray;
+  height: 300px;
+  /* background-color: white; */
+  text-align: center;
+  align-items: center;
+  width: 30%;
+}
+.mh-skills .mh-professional-skill .vertical .box_shadow {
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 25px;
+  width: 100px;
+  height: 50px;
+}
+.mh-skills .mh-professional-skill .skill-separator {
+  justify-content: space-between;
+}
 .mh-skills .mh-professional-skill {
   padding-right: 60px;
 }
@@ -1573,21 +1591,46 @@ body {
          SERVICES
       ==============
   */
-  .mh-service .mh-service-item .rowTitle{
-    /* background: red;
-    flex-direction: row;
-    justify-content: space-around; */
-  }
+
 .mh-service .mh-service-item {
-  padding: 20px;
+  /* padding: 20px; */
   word-wrap: break-word;
+  text-align: center;
+  margin-top:  20px;
+}
+.mh-service .mh-service-item .center {
+
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background-color: #2196f3;
+  position: relative;
+  bottom: 25px;
+  justify-items: center;
+}
+.mh-service  .skill-description{
+margin: 30px 150px 40px 150px;
+}
+.mh-service  .skill-overview{
+  margin-top: 100px ;
 }
 .mh-service .mh-service-item .fab,
 .mh-service .mh-service-item .fas {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 20px;
-  margin-top: 16px;
-  
+  margin-top: 15px;
+  color: white;
+
+}
+.mh-service .mh-service-item .list .items{
+ text-align: left;
+ margin-left: 20px;
+}
+.mh-service .mh-service-item li::before{
+  content: '✓';
+  color : #2196f3;
+  font-weight: bold;
+  margin-right: 10px;
 }
 .mh-service .mh-service-item .fab.purple-color {
   color: #9774fa;
